@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  vault:
+    image: vault:1.11.0
+    container_name: vault
+    ports:
+      - "8200:8200"
+    volumes:
+      - ${PWD}/vault:/vault/file/
+      - ./config.hcl:/vault/config/config.hcl
+    cap_add:
+      - IPC_LOCK
+    command: server
+
+  postgres:
+    image: postgres:14
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_PASSWORD=password
