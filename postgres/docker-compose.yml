@@ -1,21 +1,22 @@
-version: '3'
+
+version: "3"
 
 services:
-  postgres:
-    image: postgres:latest
-    healthcheck:
-      test: [ "CMD", "pg_isready", "-q", "-d", "postgres", "-U", "root" ]
-      timeout: 45s
-      interval: 10s
-      retries: 10
-    restart: always
-    environment:
-      - POSTGRES_USER=root
-      - POSTGRES_PASSWORD=password
-      - APP_DB_USER=docker
-      - APP_DB_PASS=docker
-      - APP_DB_NAME=docker
-    volumes:
-      - ./db:/opt/fishy-auto/postgres/data/
+  vault:
+    image: vault:1.11.0
+    container_name: vault
     ports:
-      - 5432:5432
+      - "8200:8200"
+    volumes:
+      - ${PWD}/vault:/vault/file/
+      - ./config.hcl:/vault/config/config.hcl
+    cap_add:
+      - IPC_LOCK
+    command: server
+
+  postgres:
+    image: postgres:14
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_PASSWORD=password
