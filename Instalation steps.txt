@@ -1,0 +1,8 @@
+#Depoly docker compose plugin
+sudo apt-get install docker-compose-plugin
+#Create data structure for Fishy Tank
+mkdir -p 
+
+#Deploy postgresSQL container
+cd fishy-auto/.git/Auto-Fishtank/postgres/
+docker compose up
