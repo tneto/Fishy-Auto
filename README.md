@@ -12,3 +12,4 @@ Sunday 30th July 2023:
 
 I created a folder for sample volume calculator (its called "vol-calc")
 Here I placed the Volume calculator samples. There is a simple sample GUI version and the complete text version. There are also a number of reference web links, the best one for the formulas etc is https://www.omnicalculator.com/other/aquarium-volume
+and this link, https://www.inchcalculator.com/aquarium-tank-volume-calculator/  scroll down the page and follow the link "Find even more volume formulas on our volume calculator." for more formulas.
