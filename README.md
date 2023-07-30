@@ -7,3 +7,8 @@ The script will create a docker image from the postresql native image, add a use
 in the pslq-start.sh and fishy-create-psql-db.py there are variables set for the passwords, users etc.
 
 Run it and let me know how you get on.
+
+Sunday 30th July 2023:
+
+I created a folder for sample volume calculator (its called "vol-calc")
+Here I placed the Volume calculator samples. There is a simple sample GUI version and the complete text version. There are also a number of reference web links, the best one for the formulas etc is https://www.omnicalculator.com/other/aquarium-volume
