@@ -1,11 +1,21 @@
 # Auto-Fishtank
-Tuesday 10th October 2023.
+-----
+**Tuesday 10th October 2023.**
 
+**I created a Draft Fishy_v_02 Pre-release with the tag of WIP**
 
+· 1 commit to main since this release
+ WIP
+ fecd96a 
 
+I got hung up on populating the Fish & Plants db. I have left that for now and now I have created the db with no sample data.
 
+I had a big issue in trying to get the python code to work on PostgreSQL (I am a bit dumb with PostgreSQL), so I concentrated on getting it to work with SQLite.
 
+Attached is the python script to create the db, a document describing the db, (i will work on the formatting later :-), a ERD diagram, the sqlite db file and a document for some additional stuff like samples of the inner and outer joins etc.
 
+Go and have a look and give me your thoughts please.
+-------------
 
 
 OK Guys, looks like you are on you holidays, so I spke to mate "ChatGPT" and I have produces the psql db creation script, to create the initial tabels etc.
