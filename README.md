@@ -1,4 +1,13 @@
 # Auto-Fishtank
+Tuesday 10th October 2023.
+
+
+
+
+
+
+
+
 OK Guys, looks like you are on you holidays, so I spke to mate "ChatGPT" and I have produces the psql db creation script, to create the initial tabels etc.
 This is created on a Debian 12 linux machine using python 3.11.4
 My script requires 3 files to be in the same directy when launching.
