@@ -1,5 +1,21 @@
 # Auto-Fishtank
 -----
+**Thursday 28th December 2023.**
+Spoke to Telmo, and started using VSCode to populate the Github repository correctly. We have put all the older details into a folder called old stuff.
+Hopefully this will be a better layout (and correct way) of doing it all.
+
+** This is Draft Fishy_v_03
+
+I got hung up on populating the Fish & Plants db. I have left that for now and now I have created the db with no sample data.
+I had a big issue in trying to get the python code to work on PostgreSQL (I am a bit dumb with PostgreSQL), so I concentrated on getting it to work with SQLite.
+Attached is the python script to create the db, a document describing the db, (i will work on the formatting later :-), a ERD diagram, the sqlite db file and a document for some additional stuff like samples of the inner and outer joins etc.
+
+Go and have a look and give me your thoughts please.
+-----
+
+
+
+
 **Tuesday 10th October 2023.**
 
 **I created a Draft Fishy_v_02 Pre-release with the tag of WIP**
